@@ -12,7 +12,7 @@ public class tc1 {
 
    		@BeforeMethod
 		public void launch() {
-		  System.setProperty("webdriver.chrome.driver","/home/user1/jenkins_home/workspace/edureka/chromedriver");
+		  System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		  driver = new ChromeDriver();
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
