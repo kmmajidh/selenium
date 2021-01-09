@@ -18,10 +18,10 @@ public class tc1 {
 		  options.addArguments("start-maximized"); // open Browser in maximized mode
 	          options.addArguments("disable-infobars"); // disabling infobars
 		  options.addArguments("--disable-extensions"); // disabling extensions
-		  options.addArguments("--disable-gpu"); // applicable to windows os only
 		  options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		  options.addArguments("--headless");
 		  options.addArguments("--no-sandbox"); // Bypass OS security model
+		  options.addArguments("--disable-setuid-sandbox");
 		  options.addArguments("--window-size=1920x1080");
 		  driver = new ChromeDriver(options);
 		  driver.manage().window().maximize();
