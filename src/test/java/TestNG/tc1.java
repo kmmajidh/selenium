@@ -34,11 +34,11 @@ public class tc1 {
 	  public void verfiy() {
 		 
 		  driver.findElement(By.xpath("//div[@class='v-button v-widget']")).click();
-		  driver.findElement(By.id("gwt-uid-5")).sendKeys("Edureka");
+		  driver.findElement(By.id("gwt-uid-5")).sendKeys("Meera");
 		  driver.findElement(By.id("gwt-uid-7")).sendKeys("Selenium");
 		  driver.findElement(By.id("gwt-uid-9")).sendKeys("9876543210");
-		  driver.findElement(By.id("gwt-uid-11")).sendKeys("devops@gmail.com");
-		  driver.findElement(By.id("gwt-uid-13")).sendKeys("6/30/20,");
+		  driver.findElement(By.id("gwt-uid-11")).sendKeys("meera@gmail.com");
+		  driver.findElement(By.id("gwt-uid-13")).sendKeys("9/01/21,");
 		  driver.findElement(By.xpath("//div[@class='v-button v-widget primary v-button-primary']")).click();
 		  
 	  }
