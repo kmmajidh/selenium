@@ -22,7 +22,7 @@ public class tc1 {
 		  options.addArguments("--headless");
 		  options.addArguments("--no-sandbox"); // Bypass OS security model
 		  options.addArguments("--disable-setuid-sandbox");
-		  options.addArguments("--window-size=1920x1080");
+		  //options.addArguments("--window-size=1920x1080");
 		  driver = new ChromeDriver(options);
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
