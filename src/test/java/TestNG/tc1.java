@@ -20,7 +20,7 @@ public class tc1 {
 		  options.addArguments("--disable-gpu"); // applicable to windows os only
 		  options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		  options.addArguments("--no-sandbox"); // Bypass OS security model
-		  driver = new ChromeDriver();
+		  driver = new ChromeDriver(options);
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		  driver.get("http://15.207.89.196:32768/addressbook/");
